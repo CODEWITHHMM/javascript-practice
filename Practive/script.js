@@ -2467,66 +2467,114 @@
 //     fname:"himanshu",
 //     age: 26,
 //     greet:function(){
-//       return "hello" + this.fname;
+//     //   return "hello" + this.fname;
+//       return `hello ${this.fname}`;
 
 //     }
 // };
-// console.log(detail.greet());
+// console.log(detail.greet());//   hello himanshu
+
 
 
 
 // Example 1.
 
 
-const calculater = {
-    add: function (a, b) {
-       return a + b;
-    },
-    sub: function (a, b) {
-        return a - b;
-    },
-    mult: function (a, b) {
-        return a * b;
-    }
-};
+// const calculater = {
+//     add: function (a, b) {
+//        return a + b;
+//     },
+//     sub: function (a, b) {
+//         return a - b;
+//     },
+//     mult: function (a, b) {
+//         return a * b;
+//     }
+// };
 
-let add = calculater.add(50,10);
-let sub =calculater.sub();
-let mult=calculater.mult();
+// let add = calculater.add(50,10);// 60
+// let sub =calculater.sub(50,40);// 10
+// let mult=calculater.mult(5,5);// 25
 
-console.log(add);
-
-
+// console.log(mult);
 
 
 
 
+/////////////////// this Keyword //////////////////
+
+// example => "this" keyword refers to an object that is executing the current piese of code
+
+
+// Example 1.
+
+// let student = {
+//     name: "himanshu",
+//     age: 27,
+//     math: 98,
+//     english: 78,
+//     science: 88,
+//     getavg() {
+//         let avg = (this.math + this.english + this.science) / 3;
+//         console.log(avg);
+
+//     }
+// }
+// student.getavg()
+
+
+// Example 2.
+
+// let student = {
+//     name: "pushkar",
+//     age: 28,
+//     math: 77,
+//     english: 88,
+//     physics: 87,
+//     getavg:function() {
+//         console.log(`${student.name} total marks in all subject  ${(student.math + student.english + student.physics) / 3}%`);
+
+//     }
+// }
+
+// student.getavg()
 
 
 
 
 
+/////////////////Try & Catch //////////////////
+
+
+// try block mein risky code hai jo error generate kar sakta hai.
+// catch block error ko handle karta hai aur error message ko console par dikhata hai.
+// finally block hamesha execute hota hai, chaahe error aaye ya na aaye.
+
+// Example 1.
+
+// console.log("himanshu");
+// console.log("himanshu");
+// console.log("himanshu");
+// try{
+//     console.log(a);
+// }catch{
+//     console.log("error found a is not define");
+
+// }
+// console.log("madheshiya");
+// console.log("madheshiya");
+// console.log("madheshiya");
 
 
 
 
+/////////////////Arrow function //////////////////
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// const sum=(a,b)=>{
+//     return a + b;    
+// }
+// sum();
 
 
 
