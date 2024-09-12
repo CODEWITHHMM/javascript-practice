@@ -2572,37 +2572,64 @@
 
 
 // const sum=(a,b)=>{
-//     return a + b;    
+//     return a + b;
 // }
 // sum();
 
 
+/////////////////Arrow function //////////////////
+
+// Implicit return=
+
+//                 Arrow functions mein, agar function ek hi expression return karta hai,
+//                 toh return keyword aur { } ki zarurat nahi hoti; result direct expression se return hota hai.
+
+
+// const fun = (a, b) => a + b ;
+// console.log(fun(10, 20));
 
 
 
+///////////////// Set Timeout ///////////////
+
+// setTimeout(function,timeout)
+
+
+// console.log("Mr");
+
+
+// setTimeout(() => {
+//     console.log("Madheshiya");
+
+
+// },1000);
+
+// console.log("Himanshu");
 
 
 
+///////////////// setInterval ///////////////
+
+// setInterval
+
+// Example . Jo code baar-baar chalana hai,
+//           yeh code har 2 seconds mein "himanshu" print karega:
+//           clearInterval(intervalId) use karke aap interval ko stop kar sakte hain.
 
 
+// let id1 = setInterval(() => {
+//     console.log("himanshu");
 
 
+// }, 2000);
+// console.log(id1);
+
+// let id2 = setInterval(() => {
+//     console.log("Hello world");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// }, 3000);
+// console.log(id2);
 
 
 
