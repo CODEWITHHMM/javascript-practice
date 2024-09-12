@@ -237,8 +237,8 @@
 // //1.indexof
 
 
-// // let msg = "iLoveHindiAndEnglish";
-// // console.log(msg.indexOf("English"));
+// let msg = "iLoveHindiAndEnglish";
+// console.log(msg.indexOf("English"));
 
 
 
@@ -2630,6 +2630,334 @@
 
 // }, 3000);
 // console.log(id2);
+
+
+
+
+/////////////// This with normal Function//////////////
+
+
+// Example , normal function me this hota hai usi ki object
+// Example 2.  Normal function me jo this hota hai, wo us object ko point karta hai
+//             jisme wo function call hota hai.Matlab agar tum ek object ke andar
+//             function banao aur usko call ?karo, to this usi object ki properties ko refer karega.
+
+
+// const student = {
+//     name: "himanshu",
+//     age: 32,
+//     marks: 76,
+//     address: "bengaluru",
+//     prop: this,// global Scope
+//     getname: function () {// normal function
+//         console.log(this);
+//         return this.name;
+//     },
+
+// }
+// console.log(student);
+
+
+
+
+
+/////////////// This with Arrow Function//////////////
+
+
+// Example . Arrow function: this hamesha us environment (scope)
+//           ko refer karega jahan wo function likha gaya hai.
+
+// 1.
+// const student = {
+//     name: "himanshu",
+//     age: 32,
+//     marks: 76,
+//     address: "bengaluru",
+//     prop: this,// global Scope
+//     getname: function () {// normal function
+//         console.log(this);
+//         return this.name;
+//     },
+//     getmark: () => {// arrow function
+//         console.log(this);// Parent Scope -> window
+//         return this.marks;
+//     }
+// }
+
+
+// 2.
+
+// const bike = {
+//     brand: 'Yamaha',
+//     getBrandNormalFun: function () {
+//         return this.brand;
+//     },
+//     getBrandArrowFun: () => {
+//         return this.brand;
+//     }
+// };
+
+// console.log(bike.getBrandNormalFun()); // Output: Yamaha
+// console.log(bike.getBrandArrowFun());  // Output: undefined
+
+
+
+/////////////// Practice Qs //////////////
+
+// Que1. Write an arrow function that return the squre of a number "n". !
+
+
+
+// Example 1.
+
+// let squre1 = (n) => {
+//     return n * n;
+// }
+// console.log(squre1(3));//9
+
+
+// // Example 2. ise aur bhi short kar skte ha kyuki isme 1 hi item rtrn krna hai
+
+// let squre2 = n => n * n;
+
+// console.log(squre2(3));//9
+
+
+
+// Que2. Write a function that print "hello world" 5 times at interval of 2s !
+
+// let time = setInterval(() => {
+//     console.log("hello world");
+//     ;
+
+
+
+// }, 2000);
+
+// setTimeout(() => {
+//     clearInterval(time)
+
+// }, 12000);// 5*hello world
+
+
+
+// detail...
+
+// 2 seconds par pehli baar,
+// 4 seconds par dusri baar,
+// 6 seconds par tisri baar,
+// 8 seconds par chauthi baar,
+// 10 seconds par paanchvi baar.
+// Fir 12th second par interval band ho jayega.
+
+
+
+/////////////// Array Method //////////////
+
+
+/////////////// forEach //////////////
+
+// Example -> 1.forEach ek array method hai jo har element par callback 
+//            2.function ko execute karta hai, bina return value diye.
+//            3.to access induvisual properties
+
+// 1.
+
+// let arr=[19,29,39,48,47,47,29];
+// arr.forEach(singal => {
+//     console.log(singal);});
+
+
+
+
+// 2.
+
+// const fruits = ["Apple", "Banana", "Mango", "Orange", "Strawberry", "Watermelon", "Peach", "Papaya"];
+
+// // fruits.forEach((fal)=> console.log(fal))//using arrow function
+
+// fruits.forEach(function(fal) {
+//     console.log(fal);  // using normal function
+// })
+
+
+
+// 3.   
+
+
+// const arr =
+//     [
+//         {
+//             name: "Rahul",
+//             city: "Gorakhpur",
+//             age: 25
+//         },
+//         {
+//             name: "Priya",
+//             city: "Bangalore",
+//             age: 30
+//         },
+//         {
+//             name: "Aman",
+//             city: "Delhi",
+//             age: 22
+//         },
+//     ];
+
+// arr.forEach((element)=>{
+//     console.log(element.name,element.city,element.age);
+    
+// })    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
