@@ -2757,7 +2757,7 @@
 
 /////////////// forEach //////////////
 
-// Example -> 1.forEach ek array method hai jo har element par callback 
+// Example -> 1.forEach ek array method hai jo har element par callback
 //            2.function ko execute karta hai, bina return value diye.
 //            3.to access induvisual properties
 
@@ -2782,7 +2782,7 @@
 
 
 
-// 3.   
+// 3.
 
 
 // const arr =
@@ -2806,35 +2806,124 @@
 
 // arr.forEach((element)=>{
 //     console.log(element.name,element.city,element.age);
-    
-// })    
+
+// })
+
+
+
+
+/////////////// Map Method //////////////
+
+// Example . map ek naya Array banata hai. aur isme return karna hi
+//           padega, bina return kiye undefined dega map ek
+//           foreach loop jaise hai.
+
+// let arr = [2, 4, 8, 6, 4, 8, 44,];
+// let duble=arr.map((elemant) => {
+//     return elemant * 2
+// })
+// console.log(duble); // [4, 8, 16, 12,8, 16, 88]
+
+
+// let students = [
+//     { name: "Rahul", marks: 85 },
+//     { name: "Priya", marks: 92 },
+//     { name: "Amit", marks: 76 },
+//     { name: "Sneha", marks: 89 },
+//     { name: "Vikas", marks: 81 }
+// ];
+// let cgpa = students.map((rollno) => {
+//     return rollno.marks / 10;
+// })
+
+// console.log(cgpa);//[ 8.5, 9.2, 7.6, 8.9, 8.1 ]
+
+
+
+
+/////////////// filter Method //////////////
+
+// example . filter an array with value. that passe a test great a new aaray
+
+// let number = [5, 2, 8, 1, 9, 4, 0, 7, 3, 6];
+
+
+// // let filter =number.filter((number)=>(number%2==1));
+// // console.log(filter);//[ 5, 1, 9, 7, 3 ]
+
+
+// // let filter =number.filter((number)=>(number%2==0));
+// // console.log(filter);//[ 2, 8, 4, 0, 6 ]
+
+
+// let filter =number.filter((number)=>(number>6));
+// console.log(filter);//[ 8, 9, 7 ]
+
+
+
+
+/////////////// reduce Method //////////////
+
+// Example. reduce() method array ke elements ka sum calculate karta hai.
+
+// 1.
+
+// let number = [1, 3, 4, 3, 5, 4, 6];
+// let reduse = number.reduce((h1, h2, h3) => {
+//     return h1 + h2 + h3
+// })
+
+// console.log(reduse);
+
+// 2.
+
+// console.log([1, 3, 4, 3, 5, 4, 6].reduce((a, b) => a + b));//26  single line
+
+
+// 3.
+
+// let num=[1,2,3,4,];
+// finalVal=num.reduce((res,acc)=>{
+//     console.log(res);// 136
+//     return res + acc
+
+// });
+// console.log(finalVal);// 10
 
 
 
 
 
+/////////////// maximum array //////////////
+
+// Finding maximum number in array
+
+// 1.
+
+// let nums=[3,2,4,5,8,10,9,7];
+// let final=nums.reduce((max,ele)=>{
+//     if (ele>max) {
+//         return ele;
+        
+//     }else{
+//         return max;
+//     }
+// });
+// console.log(final);// 10
 
 
+///////////// Practice Question /////////////
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// let nums=[2,4,6,4,1,5,8,9];
+// final=nums.reduce((min,ele)=>{
+//     if (min<ele) {
+//         return min;
+        
+//     }else{
+//         return ele;
+//     }
+// })
+// console.log(final);
 
 
 
