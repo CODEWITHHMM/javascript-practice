@@ -2904,7 +2904,7 @@
 // let final=nums.reduce((max,ele)=>{
 //     if (ele>max) {
 //         return ele;
-        
+
 //     }else{
 //         return max;
 //     }
@@ -2918,7 +2918,7 @@
 // final=nums.reduce((min,ele)=>{
 //     if (min<ele) {
 //         return min;
-        
+
 //     }else{
 //         return ele;
 //     }
@@ -2927,19 +2927,80 @@
 
 
 
+///////////// default Parametor /////////////
+
+// Example. Giving a default value to the arguments
+
+// Example 1.
+
+// function fun(a, b = 20) {
+//     return a + b;
+
+// }
+// console.log(fun(10)); //30
+
+
+// Example 2.
+
+// function fun(a=10, b = 20) {
+//     return a + b;
+//     // console.log(a + b);
+// }
+// console.log(fun());//30
+
+
+// Example 3.
+
+// function fun(a=2, b) {
+//     return a + b;
+//     // console.log(a + b);
+// }
+// console.log(fun(1,4));//4
+// console.log(fun(1));//a=1, b=undefined
 
 
 
 
+////////////////////// Spread ///////////////////////
 
 
 
+// Example.  Expands an iterable into multiple value
+//           Spread operator ko use karke tum ek array ya object ke sabhi items
+//           ko nikal sakte ho aur unko //kisi aur array ya object mein daal sakte ho.
+//           Ye teen dots(...) lagane se array ya object ke elements ko alag -
+//           alag treat kiya jata hai.
+
+
+// Example 1.  using Array
+
+// let m=[2, 4, 6, 24, 5, 1];
+// console.log(...m);// 2 4 6 24 5 1
+
+
+// Example 2. using Array
+
+
+// let arr = [9, 11, 16, 7, 17, 19, 8, 6, 21, 10, 15, 20, 3, 13, 12, 2, 24, 18, 22, 5];
+// let max=Math.max(...arr);
+// console.log(max);// 24
 
 
 
+// Example 2. using String
+
+// let nam="himanshuMadheshiya";
+// console.log(...nam);// h i m a n s h u M a d h e s h i y a
+
+// console.log(nam);// himanshuMadheshiya
 
 
+// Example 2. with Array Literals
 
+let arr=[12, 2, 24, 18, 22, 5];
+let newArr=[2,...arr];
+console.log(...arr);// 12 2 24 18 22 5
+console.log(...newArr);// 2 12 2 24 18 22 5
 
 
 
