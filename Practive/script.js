@@ -2987,7 +2987,7 @@
 
 
 
-// Example 2. using String
+// Example 3. using String
 
 // let nam="himanshuMadheshiya";
 // console.log(...nam);// h i m a n s h u M a d h e s h i y a
@@ -2995,20 +2995,46 @@
 // console.log(nam);// himanshuMadheshiya
 
 
-// Example 2. with Array Literals
+// Example 4. with Array Literals
 
-let arr=[12, 2, 24, 18, 22, 5];
-let newArr=[2,...arr];
-console.log(...arr);// 12 2 24 18 22 5
-console.log(...newArr);// 2 12 2 24 18 22 5
-
-
+// let arr=[12, 2, 24, 18, 22, 5,];
+// let newArr=[2,...arr];
+// console.log(...arr);// 12 2 24 18 22 5
+// console.log(...newArr);// 2 12 2 24 18 22 5
 
 
+// Example 5. make a concanate in array using spread opertor
+
+
+// let odd = [1, 3, 5, 7, 9, 11];
+// let even = [2, 4, 6, 8, 10, 12];
+// let mix=[...odd,...even];
+// console.log(mix);// [1, 3, 5, 7, 9, 11,2, 4, 6, 8, 10, 12]
+
+
+// Example 6. with object Literals
+
+
+// let data = {
+//     email: "hggdjrugmail.com",
+//     password: "12345"
+// }
+// let dataCopy = { ...data, id: 24, country: "india" };
+// console.log(dataCopy);// { email: 'hggdjrugmail.com', password: 12345, id: 24 }
 
 
 
 
+
+// Example 7. Array to object insert
+
+
+// let arr=[1,7,2,3,4,5,6];
+// let obj={...arr};
+// console.log(obj);// { '0': 1, '1': 7, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6 }
+
+
+// Example 8. string to object with index is key and value of string part
 
 
 
