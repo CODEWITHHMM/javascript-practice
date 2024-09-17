@@ -3037,6 +3037,15 @@
 // Example 8. string to object with index is key and value of string part
 
 
+// let nam= "Himanshu";
+// let obj={...nam};
+// console.log(obj);// {'0': 'H','1': 'i','2': 'm','3': 'a','4': 'n','5': 's','6': 'h','7': 'u'}
+
+
+
+
+////////////////////// Rest ///////////////////////
+
 
 
 
