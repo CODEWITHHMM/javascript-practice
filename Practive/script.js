@@ -3046,28 +3046,136 @@
 
 ////////////////////// Rest ///////////////////////
 
+// Example.
+//         Rest operator(...) ek aisa feature hai jo JavaScript mein use hota hai,
+//         jab humein multiple cheezon ko ek jagah collect karna ho,
+//         chahe wo arguments ho, array ke elements ho,
+//         ya object ke properties.
+
+
+////////////////////// Rest in aaray ///////////////////////
+
+// Example 1.
+
+// let fruit=["banana","apple","litchi","mango",];
+// let ff=[first,second,...fruits]=fruit;
+// // console.log(...fruit);// banana apple litchi mango
+// // console.log(first);// banana
+// // console.log(second);// apple
+// // console.log(...fruits);// litchi mango
+
+// Example 2.
+
+// function sum(...arg) {
+//     for (let i = 0; i < arg.length; i++) {
+//         console.log("you gave us:", [i]);
+//     }
+// }
+// sum(1,2,3,4,5);//         ouput//
+//                    // you gave us: [0]
+//                    // you gave us: [1]
+//                    // you gave us: [2]
+//                    // you gave us: [3]
+//                    // you gave us: [4]
+
+// Example 3.
+
+// function min() {
+//     // console.log(arguments);// [Arguments] { '0': 1, '1': 2, '2': 3, '3': 4, '4': 5 }
+//     console.log(arguments.length)// 5
+// }
+// min(1,2,3,4,5)
+
+
+////////////////////// Rest in Object ///////////////////////
+
+
+// let obj = {
+//     nam: "himanshu",
+//     age: "36",
+//     address: "bengaluru",
+//     id: "823"
+
+// }
+// let nn = { address, ...objs } = obj;
+// // console.log(obj);// { nam: 'himanshu', age: '36', address: 'bengaluru', id: '823' }
+// // console.log(objs);// { nam: 'himanshu', age: '36', id: '823' }
+// // console.log(address);// bengaluru
+
+
+
+// function sum(...arg) {
+//     return arg.reduce((sum, ele) => sum + ele);
+// }
+// console.log(sum(1, 2, 3, 4, 5, 6, 7, 8, 9));// 45
 
 
 
 
 
+////////////////////// Destructuring ///////////////////////
+
+// Array Destructuring.
+//                     Jab tumhe array ke elements ko easily variable
+//                     mein assign karna ho,
+//                     to destructuring use hota hai.
+
+
+// Example 1.
+
+
+// let nam =["himanshu","deepak","ravi","puskar","sumit"];
+// let [winner,runnerUp,...fail]=nam;
+// console.log(winner, runnerUp);// himanshu deepak
+// console.log(...fail);// ravi puskar sumit
+
+
+
+// Example 2.
+
+// let names = ['Himanshu', 'Amit', 'Rohit', 'Rahul', 'Vikram', 'Vivek', 'Suresh', 'Aakash', 'Karan', 'Manoj'];
+// let [winner,runnerUp,...other]=names;
+// // console.log(winner);// Himanshu
+// // console.log(runnerUp);// Amit
+// console.log(...other);// Rohit Rahul Vikram Vivek Suresh Aakash Karan Manoj
+
+
+
+////////////////////// Destructuring object ///////////////////////
+
+// example 1.
+
+// let student={
+//     name:"himanshu",
+//     class:"12",
+//     age:"18",
+//     subject:["hindi","english","math","science"],
+//     username:"@1234",
+//     password:"abcd"
+// };
+// let{username,age,...other}=student;
+// console.log(username);// @1234
+// console.log(age);// 18
 
 
 
 
 
+// example 2.
+         //  using key providing value
 
-
-
-
-
-
-
-
-
-
-
-
+// let student={
+//     name:"himanshu",
+//     class:"12",
+//     age:"18",
+//     subject:["hindi","english","math","science"],
+//     username:"@1234",
+//     password:"abcd"
+// };
+// let{username:user,password:secret,...other}=student;
+// // console.log(user);// @1234
+// // console.log(secret);// abcd
+// console.log(other);
 
 
 
