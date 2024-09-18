@@ -3172,10 +3172,12 @@
 //     username:"@1234",
 //     password:"abcd"
 // };
-// let{username:user,password:secret,...other}=student;
-// // console.log(user);// @1234
-// // console.log(secret);// abcd
-// console.log(other);
+// let{username:user,password:secret,location:city="mumbai",...other}=student;
+// // // console.log(user);// @1234
+// // // console.log(secret);// abcd
+// // console.log(other);
+// // console.log(city);// mumbai
+
 
 
 
