@@ -28,8 +28,18 @@
 
 ////////////////////   document.querySelector ///////////////////////
 
-let qselect=document.querySelector("#description");
 
+// let qselect=document.querySelector("#description");
+// qselect.innerText = "this is good"
+
+
+// let qselect=document.querySelector("ul li");
+
+
+////////////////////   document.querySelectorAll ///////////////////////
+
+
+// let all = document.querySelectorAll("p")[0];
 
 
 
