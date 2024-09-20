@@ -69,16 +69,37 @@
 
 ////////////////////  Manipulating style  ///////////////////////
 
+// Example 1.
+
+
 // let heading=document.querySelector("h1");
 // heading.style.color="red";// changing color
 // heading.style.backgroundColor ="yellow";// changing backgroundColor
 
 
-let lists = document.querySelectorAll(".box li");
-for (let list of lists) {
-    list.style.color = "red";
-    
-}
+// Example 2. using loop for all
+
+
+// let lists = document.querySelectorAll(".box li");
+// for (let list of lists) {          // ye inline me use hua hai jyada inline use nahi karte
+//     list.style.color = "red";  // sabhi red ho gya loop lagane ke bad
+
+// }
+
+
+
+////////////////////  Manipulating style using class  ///////////////////////
+
+// Example 1.class add hona aur class me css dene pe css apply hoga
+
+
+var heading = document.querySelector("h1");
+// heading.classList("h1");
+// heading.classList.add("green");// class add ho gya heading Green ho 
+// heading.classList.remove("green");// class remove ho gya heading pahle jaisa ho gya
+// heading.classList.contains("green");// class check karta hai ki hai ki nahi
+// heading.classList.toggle("green");// class ye basicly swtch ki tarah hai
+
 
 
 
