@@ -484,7 +484,7 @@
 // imp. unshift first wale array ki legnth ko add kar deta hai
 
 
-//1.
+// 1.
 
 
 // let car = ["maruti", "honda", "audi", "bmw",];
@@ -499,7 +499,7 @@
 // imp. shift first wale array ki legnth ko delete kar deta hai
 
 
-//1.
+// 1.
 
 
 // let car = ["maruti", "honda", "audi", "bmw",];
@@ -513,7 +513,7 @@
 // /////////////////////////////  Question  /////////////////////
 
 
-//1.
+// 1.
 
 // let start = ["january", "july", "march", "august"];
 // start.shift();
@@ -526,10 +526,10 @@
 
 // ///////////////////////////  Array method .indexof() /////////////////////
 
-//imp. index ka maping karta hai ki kha hai
+// imp. index ka maping karta hai ki kha hai
 
 
-//1.
+// 1.
 
 
 // let color=["red","blue","orange","black","white"];
@@ -540,7 +540,7 @@
 
 // ///////////////////////////  Array method .includs() /////////////////////
 
-//imp. index me pata karta hai ki hai ki nahi return Hame true / false deta hai
+// imp. index me pata karta hai ki hai ki nahi return Hame true / false deta hai
 //  yani boolean return karna hai
 
 
@@ -553,11 +553,11 @@
 
 // ///////////////////////////  Array method .concat() /////////////////////
 
-//imp.  merge 2 aray in one (Do array ko ek  me jodna )  ==> concatenat
+// imp.  merge 2 aray in one (Do array ko ek  me jodna )  ==> concatenat
 
 
 
-//1.
+// 1.
 
 // let first = ["red", "blue", "orange"];
 // let second=["black","white",];
@@ -569,17 +569,17 @@
 
 // ///////////////////////////  Array method .reverse() /////////////////////
 
-//imp. ye method reverse karne me kam karta hai
+// imp. ye method reverse karne me kam karta hai
 //   ye orginal array me hi change hota hai
 
 
-//1.
+// 1.
 
 // let reverse = ['red', 'blue', 'orange', 'black', 'white'];
 // console.log(reverse.reverse());
 
 
-//2.
+// 2.
 
 // imp. isase hum do array ko sath ek sath  reverse kar sakte hai with concat
 // example -->
@@ -591,31 +591,31 @@
 
 
 
-/////////////////////////////// Array method .slice ////////////////////////
+// ///////////////////////////// Array method .slice ////////////////////////
 
-//imp. slice metheod (start,end) tak kam karta hai,
+// imp. slice metheod (start,end) tak kam karta hai,
 
 
-//1.
+// 1.
 
 // let color = ['red', 'blue', 'orange', 'black', 'white'];
 // console.log(color.slice(0));
 
 
 
-//2.
+// 2.
 
 // let color = ['red', 'blue', 'orange', 'black', 'white'];
 // console.log(color.slice(2));
 
 
-//3.
+// 3.
 
 // let color = ['red', 'blue', 'orange', 'black', 'white'];
 // console.log(color.slice(2,3));
 
 
-//4.
+// 4.
 
 // let color = ['red', 'blue', 'orange', 'black', 'white'];
 // console.log(color.slice(-1));
@@ -624,10 +624,10 @@
 
 
 
-/////////////////////////////// Array replace method ////////////////////////
+// ///////////////////////////// Array replace method ////////////////////////
 
 
-//imp. ye word ko replace karta hai
+// imp. ye word ko replace karta hai
 
 // 1.
 
@@ -635,7 +635,7 @@
 // console.log(str.replace("i","my"));
 
 
-//2.
+// 2.
 
 // let str= "ilovecoding";
 // let nstr=str.replace("i","my");
@@ -643,31 +643,31 @@
 
 
 
-/////////////////////////////// Array repeat method  ////////////////////////
+// ///////////////////////////// Array repeat method  ////////////////////////
 
 // imp. isme value ko kitni bhi bhar repeat kar sakte hai
 
 
-//1.
+// 1.
 
 // let str = "apple";
 // console.log(str.repeat(3));
 
 
-//2.
+// 2.
 
 // let str="mango";
 // let nstr=str.repeat(5)
 // console.log(nstr);
 
 
-/////////////////////////////  Question  /////////////////////
+// ///////////////////////////  Question  /////////////////////
 
 
-//Q 1.
+// Q 1.
 
 //   let msg="help!";
-//
+
 //   trim it and convert to uppercase
 
 // let msg="  help!  ";
@@ -681,7 +681,7 @@
 
 
 
-//Q 2.
+// Q 2.
 
 
 //  predict a output
@@ -697,7 +697,7 @@
 
 
 
-//Q 3.index of "na";
+// Q 3.index of "na";
 
 // let str = "ApnaCollege";
 // console.log(str.indexOf("na"));
@@ -707,7 +707,7 @@
 
 
 
-//Q 3.  replace to "apna","aur";
+// Q 3.  replace to "apna","aur";
 
 // let str = "ApnaCollege";
 // console.log(str.replace("Apna","Our"));
@@ -729,10 +729,10 @@
 
 
 
-///////////////////////// Array (Data Structure)  //////////////////////
+// /////////////////////// Array (Data Structure)  //////////////////////
 
 
-//1.
+// 1.
 // let student=["himanshu","ravi","manjit","deepak"];
 // console.log(student[0]);
 
@@ -753,9 +753,9 @@
 
 
 
-///////////////////////// Array (sort)  //////////////////////
+// /////////////////////// Array (sort)  //////////////////////
 
-//imp.1
+// imp.1
 
 
 
@@ -778,7 +778,7 @@
 
 
 
-///////////////////////// Array (reffrence)  //////////////////////
+// /////////////////////// Array (reffrence)  //////////////////////
 
 
 // imp. jitna bhi array banata hai sabka memory alag hota hai
@@ -808,14 +808,14 @@
 // arr2.push("c")
 // console.log(arr === arr2);
 
-//
+
 //    ans= >true
 
 
-///////////////////////// Array (constant)  //////////////////////
+// /////////////////////// Array (constant)  //////////////////////
 
 
-//imp. constant aaray me push pop like  ho skta hai array
+// imp. constant aaray me push pop like  ho skta hai array
 //     direct change nahi
 //     ho sakta hai
 
@@ -848,10 +848,10 @@
 
 
 
-///////////////////////// Array (nested)  //////////////////////
+// /////////////////////// Array (nested)  //////////////////////
 
 
-//imp.
+// imp.
 
 
 //  example 1.
@@ -889,7 +889,7 @@
 
 
 
-/////////////////////////////  P.Question  /////////////////////
+// ///////////////////////////  P.Question  /////////////////////
 
 // Q1. make tik toe game         X |   | O
 //                                 | X |
@@ -942,10 +942,10 @@
 
 
 
-////////////////////////////////// Loop  //////////////////////////////
+// //////////////////////////////// Loop  //////////////////////////////
 
 
-////////////////////////////// for  Loop  //////////////////////////////
+// //////////////////////////// for  Loop  //////////////////////////////
 
 
 // example. for loop 4 kam karta hai
@@ -970,7 +970,7 @@
 //         4
 //         5
 
-////////////////////////////////// dry run  //////////////////////////////
+// //////////////////////////////// dry run  //////////////////////////////
 
 // output      dryrun
 
@@ -1001,7 +1001,7 @@
 //         1
 
 
-////////////////////////////////// dry run  //////////////////////////////
+// //////////////////////////////// dry run  //////////////////////////////
 
 // output      dryrun
 
@@ -1014,7 +1014,7 @@
 
 
 
-///////////////////////////  print all odd number (1 to 15 )  ////////////////////////////
+// /////////////////////////  print all odd number (1 to 15 )  ////////////////////////////
 
 
 // example.
@@ -1027,7 +1027,7 @@
 
 
 
-///////////////////////////  print all even number (2 to 10 )  ////////////////////////////
+// /////////////////////////  print all even number (2 to 10 )  ////////////////////////////
 
 
 // example.
@@ -1046,7 +1046,7 @@
 
 
 
-//////////////////////////////// ifinit Loop  /////////////////////////
+// ////////////////////////////// ifinit Loop  /////////////////////////
 
 
 // Example.
@@ -1073,7 +1073,7 @@
 
 
 
-//////////////////////////////// for Loop Q. /////////////////////////
+// ////////////////////////////// for Loop Q. /////////////////////////
 
 // Example. Print the multiplication table for 5
 
@@ -1096,7 +1096,7 @@
 
 
 
-//////////////////////////////// table in loop /////////////////////////
+// ////////////////////////////// table in loop /////////////////////////
 
 
 // Example. Print the table any number using for loop
@@ -1128,7 +1128,7 @@
 
 
 
-//////////////////////////////// Nested loop /////////////////////////
+// ////////////////////////////// Nested loop /////////////////////////
 
 
 // imp 1. nested loop yah loop loop ke andar loop lagane ko nested loop kahte hai
@@ -1201,7 +1201,7 @@
 
 
 
-//////////////////////////////// While loop /////////////////////////
+// ////////////////////////////// While loop /////////////////////////
 
 // imp 1.  while loop ek loop ko likhne ka alag tarika hai
 
@@ -1308,7 +1308,7 @@
 
 
 
-//////////////////////////////// guess game /////////////////////////
+// ////////////////////////////// guess game /////////////////////////
 
 // imp. ek aisa prompt banana hai jise guess karne pe avatar ane pe sucsess ho
 //      nahi to wrong bolne par bhi loop chlta rahe aur quite karne pe
@@ -1331,7 +1331,7 @@
 
 
 
-//////////////////////////////// break /////////////////////////
+// ////////////////////////////// break /////////////////////////
 
 
 // let i = 1;
@@ -1350,7 +1350,7 @@
 //        2
 
 
-////////////////////////// loop with array //////////////////////
+// //////////////////////// loop with array //////////////////////
 
 // imp . using with break. statement
 
@@ -1371,7 +1371,7 @@
 //         4 Mango
 
 
-////////////////////////// loop with array //////////////////////
+// //////////////////////// loop with array //////////////////////
 
 // imp . using with break. in array statement
 
@@ -1392,7 +1392,7 @@
 // }
 
 
-////////////////////////// Loops with Nested Arrays////////////////////////////
+// //////////////////////// Loops with Nested Arrays////////////////////////////
 
 // imp 1.
 
@@ -1417,7 +1417,7 @@
 // Wonder Woman
 
 
-////////////////////////// Loops with Nested Arrays////////////////////////////
+// //////////////////////// Loops with Nested Arrays////////////////////////////
 
 // imp 2.
 
@@ -1442,7 +1442,7 @@
 
 
 
-////////////////////////// for of Loops ////////////////////////////
+// //////////////////////// for of Loops ////////////////////////////
 
 // imp . for...of loop JavaScript mein ek iterating loop hai jo arrays,
 //       strings, Maps, Sets, aur iterable objects ke elements ko iterate karne ke
@@ -1502,7 +1502,7 @@
 
 
 
-////////////////////////// nested for of Loops /////////////////////////
+// //////////////////////// nested for of Loops /////////////////////////
 
 // let fruits = [["Apple", "Banana", "Orange"], ["Grapes", "Mango","litchi"]];
 
@@ -1524,7 +1524,7 @@
 // litchi
 
 
-/////////////////////////////// To Do App ///////////////////////////
+// ///////////////////////////// To Do App ///////////////////////////
 
 
 // let todo = [];
@@ -1561,7 +1561,7 @@
 
 
 
-////////////////////////// js Objects Literals ////////////////////////
+// //////////////////////// js Objects Literals ////////////////////////
 
 
 
@@ -1600,7 +1600,7 @@
 
 
 
-////////////////////////// Creating Objects Literals /////////////////////
+// //////////////////////// Creating Objects Literals /////////////////////
 
 // example.
 
@@ -1625,7 +1625,7 @@
 
 
 
-////////////////////////// Creating Objects Literals /////////////////////
+// //////////////////////// Creating Objects Literals /////////////////////
 
 // example 1.
 
@@ -1650,7 +1650,7 @@
 // }
 
 
-///////////////////////////// Get Value ///////////////////////
+// /////////////////////////// Get Value ///////////////////////
 
 // example. 1
 
@@ -1665,10 +1665,10 @@
 
 
 
-///////////////////////////// add updateValue ///////////////////////
+// /////////////////////////// add updateValue ///////////////////////
 
 
-//example .1
+// example .1
 
 
 // const student={
@@ -1687,12 +1687,12 @@
 
 
 
-///////////////////////////// Object of Object ///////////////////////
+// /////////////////////////// Object of Object ///////////////////////
 
-//. imp   Object of Object ka matlab ek object ke andar multipal object ko create
+// . imp   Object of Object ka matlab ek object ke andar multipal object ko create
 //        karna indivisual value ko bhi pakad sakte hai using .operator
 
-//example .1
+// example .1
 
 
 // const student={
@@ -1721,7 +1721,7 @@
 
 
 
-//////////////////////////// Array of Object ///////////////////////
+// ////////////////////////// Array of Object ///////////////////////
 
 // imp 1. isme kya hota hai ki isme arry method ka bhi kam karta hai aur
 //        object method ka bhi kam karta hai kah sakte ki array aur object dono nested hai
@@ -1762,7 +1762,7 @@
 
 
 
-////////////////////////////// Math  Object ///////////////////////
+// //////////////////////////// Math  Object ///////////////////////
 
 
 // method 1. abs
@@ -1780,7 +1780,7 @@
 
 // ans == 10
 
-////////////////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -1799,7 +1799,7 @@
 
 
 
-////////////////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////////////
 
 
 // method 3. floor
@@ -1808,7 +1808,7 @@
 // eaxample. floor kya hota hai jo bhi hamara number hota hai jaise 23.039 ye number hai
 //           to ise round off kar dega 23.039 hai to ise floor value me iska
 //           value 23 hogya .039 point ke bad wala dicrement ho jata hai
-//
+
 
 
 // let flr= Math.floor(23.039);
@@ -1819,7 +1819,7 @@
 
 
 
-////////////////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////////////
 
 
 // method 4. ceil
@@ -1828,7 +1828,7 @@
 // eaxample. ceil kya hota hai jo bhi hamara number hota hai jaise 53.838 ye number hai
 //           to ise round off kar dega 53.838 hai to ise ceil value me iska
 //           value 53 hogya .838 point ke bad wala increment ho jata hai
-//
+
 
 
 
@@ -1840,14 +1840,14 @@
 // ans == 54
 
 
-////////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////
 
 
 // method 5. random
 
 // example . random function kya karta hai koi bhi random value de deta hai
 //           0 se leke 1 tak koi bhi value de dega jisme kabhi bhi 1 nahi dega
-//
+
 
 
 
@@ -1860,7 +1860,7 @@
 
 
 
-////////////////////////////////// Random integers ////////////////////////////
+// //////////////////////////////// Random integers ////////////////////////////
 
 
 // method 6. random integers
@@ -1886,7 +1886,7 @@
 
 
 
-////////////////////////////////// Quetion  ////////////////////////////
+// //////////////////////////////// Quetion  ////////////////////////////
 
 
 // Q1. generate a random number between 1 to 100
@@ -1911,7 +1911,7 @@
 
 
 
-/////////////////////////////////// function ////////////////////////////////
+// ///////////////////////////////// function ////////////////////////////////
 
 // method.
 //          JavaScript में function एक ब्लॉक कोड को परिभाषित करने का तरीका है जिसे बाद में कई बार कॉल
@@ -2308,7 +2308,7 @@
 
 
 
-/////////////////////////////// higher Order functions //////////////////////
+// ///////////////////////////// higher Order functions //////////////////////
 
 //   imp.
 //   Higher-order functions woh functions hote hain jo ya to dusre functions ko
@@ -2426,7 +2426,7 @@
 
 
 
-//////////////////////// higher Order functions(return) ///////////////////
+// ////////////////////// higher Order functions(return) ///////////////////
 
 
 
@@ -2452,7 +2452,7 @@
 
 
 
-//////////////////////////// methods ///////////////////////
+// ////////////////////////// methods ///////////////////////
 
 // Example 1.
 
@@ -2501,7 +2501,7 @@
 
 
 
-/////////////////// this Keyword //////////////////
+// ///////////////// this Keyword //////////////////
 
 // example => "this" keyword refers to an object that is executing the current piese of code
 
@@ -2543,7 +2543,7 @@
 
 
 
-/////////////////Try & Catch //////////////////
+// ///////////////Try & Catch //////////////////
 
 
 // try block mein risky code hai jo error generate kar sakta hai.
@@ -2568,7 +2568,7 @@
 
 
 
-/////////////////Arrow function //////////////////
+// ///////////////Arrow function //////////////////
 
 
 // const sum=(a,b)=>{
@@ -2577,7 +2577,7 @@
 // sum();
 
 
-/////////////////Arrow function //////////////////
+// ///////////////Arrow function //////////////////
 
 // Implicit return=
 
@@ -2590,7 +2590,7 @@
 
 
 
-///////////////// Set Timeout ///////////////
+// /////////////// Set Timeout ///////////////
 
 // setTimeout(function,timeout)
 
@@ -2608,7 +2608,7 @@
 
 
 
-///////////////// setInterval ///////////////
+// /////////////// setInterval ///////////////
 
 // setInterval
 
@@ -2634,7 +2634,7 @@
 
 
 
-/////////////// This with normal Function//////////////
+// ///////////// This with normal Function//////////////
 
 
 // Example , normal function me this hota hai usi ki object
@@ -2661,7 +2661,7 @@
 
 
 
-/////////////// This with Arrow Function//////////////
+// ///////////// This with Arrow Function//////////////
 
 
 // Example . Arrow function: this hamesha us environment (scope)
@@ -2702,7 +2702,7 @@
 
 
 
-/////////////// Practice Qs //////////////
+// ///////////// Practice Qs //////////////
 
 // Que1. Write an arrow function that return the squre of a number "n". !
 
@@ -2752,10 +2752,10 @@
 
 
 
-/////////////// Array Method //////////////
+// ///////////// Array Method //////////////
 
 
-/////////////// forEach //////////////
+// ///////////// forEach //////////////
 
 // Example -> 1.forEach ek array method hai jo har element par callback
 //            2.function ko execute karta hai, bina return value diye.
@@ -2812,7 +2812,7 @@
 
 
 
-/////////////// Map Method //////////////
+// ///////////// Map Method //////////////
 
 // Example . map ek naya Array banata hai. aur isme return karna hi
 //           padega, bina return kiye undefined dega map ek
@@ -2841,7 +2841,7 @@
 
 
 
-/////////////// filter Method //////////////
+// ///////////// filter Method //////////////
 
 // example . filter an array with value. that passe a test great a new aaray
 
@@ -2862,7 +2862,7 @@
 
 
 
-/////////////// reduce Method //////////////
+// ///////////// reduce Method //////////////
 
 // Example. reduce() method array ke elements ka sum calculate karta hai.
 
@@ -2894,7 +2894,7 @@
 
 
 
-/////////////// maximum array //////////////
+// ///////////// maximum array //////////////
 
 // Finding maximum number in array
 
@@ -2912,7 +2912,7 @@
 // console.log(final);// 10
 
 
-///////////// Practice Question /////////////
+// /////////// Practice Question /////////////
 
 // let nums=[2,4,6,4,1,5,8,9];
 // final=nums.reduce((min,ele)=>{
@@ -2927,7 +2927,7 @@
 
 
 
-///////////// default Parametor /////////////
+// /////////// default Parametor /////////////
 
 // Example. Giving a default value to the arguments
 
@@ -2961,7 +2961,7 @@
 
 
 
-////////////////////// Spread ///////////////////////
+// //////////////////// Spread ///////////////////////
 
 
 
@@ -3044,7 +3044,7 @@
 
 
 
-////////////////////// Rest ///////////////////////
+// //////////////////// Rest ///////////////////////
 
 // Example.
 //         Rest operator(...) ek aisa feature hai jo JavaScript mein use hota hai,
@@ -3053,7 +3053,7 @@
 //         ya object ke properties.
 
 
-////////////////////// Rest in aaray ///////////////////////
+// //////////////////// Rest in aaray ///////////////////////
 
 // Example 1.
 
@@ -3087,7 +3087,7 @@
 // min(1,2,3,4,5)
 
 
-////////////////////// Rest in Object ///////////////////////
+// //////////////////// Rest in Object ///////////////////////
 
 
 // let obj = {
@@ -3113,7 +3113,7 @@
 
 
 
-////////////////////// Destructuring ///////////////////////
+// //////////////////// Destructuring ///////////////////////
 
 // Array Destructuring.
 //                     Jab tumhe array ke elements ko easily variable
@@ -3141,7 +3141,7 @@
 
 
 
-////////////////////// Destructuring object ///////////////////////
+// //////////////////// Destructuring object ///////////////////////
 
 // example 1.
 
@@ -3162,7 +3162,7 @@
 
 
 // example 2.
-         //  using key providing value
+//           using key providing value
 
 // let student={
 //     name:"himanshu",
