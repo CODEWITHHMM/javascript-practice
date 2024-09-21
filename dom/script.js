@@ -93,14 +93,17 @@
 // Example 1.class add hona aur class me css dene pe css apply hoga
 
 
-var heading = document.querySelector("h1");
-// heading.classList("h1");
-// heading.classList.add("green");// class add ho gya heading Green ho 
-// heading.classList.remove("green");// class remove ho gya heading pahle jaisa ho gya
-// heading.classList.contains("green");// class check karta hai ki hai ki nahi
-// heading.classList.toggle("green");// class ye basicly swtch ki tarah hai
+// var heading = document.querySelector("h1");
+// // heading.classList("h1");
+// // heading.classList.add("green");// class add ho gya heading Green ho 
+// // heading.classList.remove("green");// class remove ho gya heading pahle jaisa ho gya
+// // heading.classList.contains("green");// class check karta hai ki hai ki nahi
+// // heading.classList.toggle("green");// class ye basicly swtch ki tarah hai
 
 
+
+
+//////////////////////  Navigation  ///////////////////////
 
 
 
