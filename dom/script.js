@@ -95,7 +95,7 @@
 
 // var heading = document.querySelector("h1");
 // // heading.classList("h1");
-// // heading.classList.add("green");// class add ho gya heading Green ho 
+// // heading.classList.add("green");// class add ho gya heading Green ho
 // // heading.classList.remove("green");// class remove ho gya heading pahle jaisa ho gya
 // // heading.classList.contains("green");// class check karta hai ki hai ki nahi
 // // heading.classList.toggle("green");// class ye basicly swtch ki tarah hai
@@ -104,6 +104,40 @@
 
 
 //////////////////////  Navigation  ///////////////////////
+
+
+// ==> parentElement
+
+// ==> children
+
+// ==> childElementCount
+
+// ==> previousElement
+
+// ==> nextElementSibling
+
+
+
+
+//////////////////////  parentElement  ///////////////////////
+
+
+// example 1.
+
+// let parent=document.querySelector("li");
+
+// parent is <ul>...</ul>
+
+//   <ul>
+//     <li>Eat</li>
+//     <li>Code</li>
+//     <li>Sleep</li>
+// </ul>
+
+
+
+//////////////////////  Children  ///////////////////////
+
 
 
 
