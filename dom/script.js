@@ -126,6 +126,8 @@
 
 // let parent=document.querySelector("li");
 
+// parent.parentElement
+
 // parent is <ul>...</ul>
 
 //   <ul>
@@ -139,29 +141,122 @@
 //////////////////////  Children  ///////////////////////
 
 
+// let child = document.querySelector("ul");
+
+// child.children
+
+// 0:li
+// 1:li
+// 2:li
 
 
 
 
+//////////////////////  box.Children  ///////////////////////
+
+// let box = document.querySelector(".box");
+
+//<div class="box">
+//   <ul>
+//       <li>Eat</li>
+//       <li>Code</li>
+//       <li>Sleep</li>
+//   </ul>
+//</div>
+
+
+
+//////////////////////  box.ChildrenElementCount  ///////////////////////
+
+
+// let box = document.querySelector("ul");
+// box.childElementCount
+
+// //   <ul>
+// //       <li>Eat</li>// 1
+// //       <li>Code</li>// 2
+// //       <li>Sleep</li>// 3
+// //   </ul>
+
+// box.childElementCount = total 3;
+
+
+
+//////////////////////  ul.ParentElementCount  ///////////////////////
+
+// let ul=document.querySelector("ul");
+
+// ul.parentElement
+
+// /* <div class="box">...</div>  */
 
 
 
 
+////////////////////// SiblingElement ///////////////////////
+
+// let sib=document.querySelector("ul");
+
+// let ne=sib.children[0];
+
+// <li>Eat</li>// catch in 0 index
+
+// let ne = sib.children[1];
+
+// <li>Code</li>// catch in 1 index
+
+// let ne = sib.children[2];
+
+// <li>Sleep</li>// catch in 2 index
 
 
 
+////////////////////// previousElementSibling ///////////////////////
+
+// Example 1.
+
+// let ul = document.querySelector("ul");
+// let n = ul.children[2].previousElementSibling;
+
+// <li>Code</li> // print previousSibling element on index of 1
 
 
 
+// Example 2.
+
+// let ul=document.querySelector("ul");
+// let n = ul.children[1].previousElementSibling;
+
+// <li>Eat</li> // print previousSibling element on index of 0
 
 
 
+////////////////////// nextElementSibling ///////////////////////
+
+
+// Example 1.
+
+// let sib=document.querySelector(".box2");
+// let next=sib.children[0].nextElementSibling;
+
+// // <p id="description">This is a best.</p>// print next Element
+
+
+// Example 2.
+
+// let sib=document.querySelector(".box2");
+// let next=sib.children[1].nextElementSibling;
+
+// // <p id="description">Sample content.</p>// print next Element
 
 
 
+// Example 3.
 
+// let sib=document.querySelector(".box2");
+// let next=sib.nextElementSibling;
 
-
+// <p>next</p> // print to next sibling Element 
 
 
 
